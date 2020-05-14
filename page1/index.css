@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container1{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.row{
+    margin: 0px;
+}
+
+header{
+    background-color: #211b17;
+    color: white;
+}
+
+header .logo{
+    padding-left: 25px;
+}
+
+header .logOut{
+    text-decoration: none;
+    text-align: right;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+header a{
+    padding: 6px;
+    padding-bottom: 7px;
+    border: 1.5px solid #fff4d8;
+    border-radius: 6px;
+    color: #fff4d8;
+    font-weight: 600;
+}
+
+header a:hover{
+    text-decoration: none;
+    background-color: #209b21;
+    color: white;
+}
+
+nav .reservation{
+    background-image: url("reservation.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+nav .order {
+    background-image: url("order.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.aboutUs{
+    background-color: #fff4d8;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+div .title{
+    width: 100%;
+    text-align: center;
+}
+
+div .imgs{
+    width: 400px;
+    height: 400px;
+}
+
+div .titleLine{
+    background-color: #fff4d8;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+div .title{
+    width: 100%;
+    text-align: center;
+}
+
+
+div .gallery{
+    background-color: #fff4d8;
+    padding-bottom: 10px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+div .comment{
+    background-color: #fff4d8;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+    border: 1px solid #1d1d1d;
+
+}
+
+div .commentArea{
+    text-align: center;
+    padding-top: 15px;
+}
+
+div .button{
+    margin-top: 8px;
+    padding: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    background-color: #404040;
+    color: white;
+}
+
+div .button:hover{
+    background-color: #979797;
+    color: black;
+    font-weight: 600;
+}
+
+div .row hr{
+    background-color: #fff4d8;
+    padding: 0;
+    margin: 0;
+}
+
+div .hr{
+    background-color: #fff4d8;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div .contact{
+    background-color: #fff4d8;
+}
+
+.contact div{
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    background-color: #211b17;
+    color: #fff4d8;
+}
+
+footer .row{
+    padding-top: 15px;
+
+}
+
+footer .footerText{
+    text-align: center;
+}
