@@ -27,7 +27,11 @@ header{
 
 header .logo{
     padding-left: 25px;
+
 }
+
+
+
 
 header .logOut{
     text-decoration: none;
@@ -40,7 +44,7 @@ header .logOut{
 header a{
     padding: 6px;
     padding-bottom: 7px;
-    border: 1.5px solid #fff4d8;
+    border: 1.5px solid #daa520;
     border-radius: 6px;
     color: #fff4d8;
     font-weight: 600;
@@ -48,8 +52,15 @@ header a{
 
 header a:hover{
     text-decoration: none;
-    background-color: #209b21;
-    color: white;
+    background-color: #daa520;
+    color: #000;
+    border: none;
+}
+header a:active{
+    text-decoration: none;
+    background-color: #daa520;
+    color: #000;
+    border: none;
 }
 
 nav .reservation{
@@ -60,6 +71,18 @@ nav .reservation{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+nav .reservation a,nav .order a{
+    color: #000;
+    font-size: 30px;
+
+}
+nav .reservation a:hover,nav .order a:hover{
+    color: #000;
+    font-size: 40px;
+    text-decoration: none;
+
+
 }
 
 nav .order {

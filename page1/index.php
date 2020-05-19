@@ -1,6 +1,21 @@
 <?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    $_SESSION['msg'] = "You must log in first";
+    header('location: login.php');
+}
+
+if (isset($_GET['logout'])) {
+    session_destroy();
+    unset($_SESSION['username']);
+    header("location: login.php");
+}
+
+?>
+<?php
 date_default_timezone_set('Europe/Belgrade');
-include  'dba.php';
+include 'dba.php';
 include 'messages.php';
 ?>
 
@@ -23,9 +38,13 @@ include 'messages.php';
 
 <header class="container1">
     <div class="row">
-        <h1 class="col logo">LOGO</h1>
+        <img src="star.png" width="250" height="80" style="margin-top: 15px; margin-left: 50px">
+
         <div class="col logOut">
-            <a href="#">ODJAVI SE</a>
+            <?php  if (isset($_SESSION['username'])) : ?>
+            <p>Zdravo <strong><?php echo $_SESSION['username']; ?></strong></p>
+                <p> <a href="../login/login.php" >ODJAVI SE</a> </p>
+            <?php endif ?>
         </div>
     </div>
 
@@ -34,10 +53,10 @@ include 'messages.php';
 <nav class="container1">
     <div class="row">
         <button class="col reservation">
-            <h1>REZERVACIJA</a>
+            <a href="../reservation/reservation.php">REZERVACIJA</a>
         </button>
         <button class="col order">
-            <h1>PORUDŽBINA</h1>
+            <a href="#">PORUDŽBINA</a>
         </button>
     </div>
 </nav>
