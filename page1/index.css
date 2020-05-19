@@ -26,12 +26,16 @@ header{
 }
 
 header .logo{
-    padding-left: 25px;
-
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
-
-
+header img{
+    width: 100%;
+    height: auto;
+    min-width: 180px;
+    max-width: 260px;
+}
 
 header .logOut{
     text-decoration: none;
@@ -205,11 +209,26 @@ div .hr{
 
 div .contact{
     background-color: #fff4d8;
+
 }
 
 .contact div{
     width: 100%;
     text-align: center;
+}
+
+div .address{
+
+}
+
+.contact img{
+    width: 50px;
+    height: auto;
+    position: center;
+}
+
+.address p{
+
 }
 
 footer{
@@ -219,9 +238,17 @@ footer{
 
 footer .row{
     padding-top: 15px;
+}
 
+footer img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    max-width: 200px;
+    padding-bottom: 12px;
 }
 
 footer .footerText{
     text-align: center;
+    padding-top: 0.7%;
 }
