@@ -79,14 +79,11 @@ nav .reservation{
 nav .reservation a,nav .order a{
     color: #000;
     font-size: 30px;
-
 }
 nav .reservation a:hover,nav .order a:hover{
     color: #000;
     font-size: 40px;
     text-decoration: none;
-
-
 }
 
 nav .order {
@@ -218,7 +215,7 @@ div .contact{
 }
 
 div .address{
-
+    text-align: left;
 }
 
 .contact img{
@@ -227,8 +224,9 @@ div .address{
     position: center;
 }
 
-.address p{
-
+div .col-2 .icon{
+    background-color: black;
+    float: right;
 }
 
 footer{
