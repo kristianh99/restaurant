@@ -60,7 +60,7 @@ include 'messages.php';
             <a href="../reservation/reservation.php">REZERVACIJA</a>
         </button>
         <button class="col order">
-            <a href="#">PORUDŽBINA</a>
+            <a href="../order/order.php">PORUDŽBINA</a>
         </button>
     </div>
 </nav>
