@@ -26,12 +26,16 @@ header{
 }
 
 header .logo{
-    padding-left: 25px;
-
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
-
-
+header img{
+    width: 100%;
+    height: auto;
+    min-width: 180px;
+    max-width: 260px;
+}
 
 header .logOut{
     text-decoration: none;
@@ -71,18 +75,9 @@ nav .reservation{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
-}
-nav .reservation a,nav .order a{
-    color: #000;
-    font-size: 30px;
-
-}
-nav .reservation a:hover,nav .order a:hover{
-    color: #000;
-    font-size: 40px;
-    text-decoration: none;
-
-
+    filter: grayscale(100%);
+    transition: 1s;
+    color: #ea9e22;
 }
 
 nav .order {
@@ -92,6 +87,24 @@ nav .order {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+nav .reservation:hover, nav .order:hover{
+    filter: grayscale(0);
+    transform: scale(1);
+
+}
+
+nav .reservation a, nav .order a{
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+}
+
+nav .reservation a:hover, nav .order a:hover{
+    text-decoration: none;
 }
 
 .aboutUs{
@@ -205,11 +218,27 @@ div .hr{
 
 div .contact{
     background-color: #fff4d8;
+
 }
 
 .contact div{
     width: 100%;
     text-align: center;
+}
+
+div .address{
+    text-align: left;
+}
+
+.contact img{
+    width: 50px;
+    height: auto;
+    position: center;
+}
+
+div .col-2 .icon{
+    background-color: black;
+    float: right;
 }
 
 footer{
@@ -219,9 +248,17 @@ footer{
 
 footer .row{
     padding-top: 15px;
+}
 
+footer img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    max-width: 200px;
+    padding-bottom: 12px;
 }
 
 footer .footerText{
     text-align: center;
+    padding-top: 0.7%;
 }
