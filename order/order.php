@@ -19,6 +19,7 @@ if (isset($_GET['logout'])) {
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="order.css">
+    <script src="order.js" async></script>
     <title>Porudžbina</title>
 </head>
 <body>
@@ -52,6 +53,46 @@ if (isset($_GET['logout'])) {
     </div>
 </div>
 
+
+
+<div class="container1 content">
+
+    <div class="row">
+        <div class="col-12 col-md-6 food">
+            <span class="shop-item-title"><h1 class="col-12">Pileći file natur</h1></span>
+            <div class="col-12 image"><img class="shop-item-image" src="product-images/piletina.jpg" width="100%" height="auto"></div>
+            <p><br>marinirani grilovani pileći file, pomfrit, kombinacija zelenih salata sa žilijen povrćem i lepinja</p>
+            <span class="shop-item-price">650.00 din</span><br><br>
+            <button class="btn-addToCart">Dodaj u korpu</button>
+        </div>
+
+        <div class="col-12 col-md-6 food">
+            <span class="shop-item-title"><h1 class="col-12">Mexican taco rolls</h1></span>
+            <div class="col-12 image"><img class="shop-item-image" src="product-images/meksikan.jpg" width="100%" height="auto"></div>
+            <p><br>tortilje punjene autentičnim meksičkim nadevom od goveđeg mesa, servirane uz salatu, krompir spicy wedges, kiseli sos i guacamole dip</p>
+            <span class="shop-item-price">650.00 din</span><br><br>
+            <button class="btn-addToCart">Dodaj u korpu</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6 food">
+            <span class="shop-item-title"><h1 class="col-12">Pizza sa sirom</h1></span>
+            <div class="col-12 image"><img class="shop-item-image" src="product-images/pizza.jpg" width="100%" height="auto"></div>
+            <p><br>kečap, sir</p>
+            <span class="shop-item-price">400.00 din</span><br><br>
+            <button class="btn-addToCart">Dodaj u korpu</button>
+        </div>
+
+        <div class="col-12 col-md-6 food">
+            <span class="shop-item-title"><h1 class="col-12">Palačinka sa džemom</h1></span>
+            <div class="col-12 image"><img class="shop-item-image" src="product-images/palacinka.jpg" width="100%" height="auto"></div>
+            <p><br></p>
+            <span class="shop-item-price">100.00 din</span><br><br>
+            <button class="btn-addToCart">Dodaj u korpu</button>
+        </div>
+    </div>
+</div>
+
 <div class="container1 cart1">
     <div class="container content-section">
         <h2 class="section-header">CART</h2>
@@ -67,44 +108,6 @@ if (isset($_GET['logout'])) {
             <span class="cart-total-price">$0</span>
         </div>
         <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-    </div>
-</div>
-
-<div class="container1 content">
-
-    <div class="row">
-        <div class="col-12 col-md-6 food">
-            <h1 class="col-12">Pileći file natur</h1>
-            <div class="col-12 image"><img src="product-images/piletina.jpg" width="100%" height="auto"></div>
-            <p><br>marinirani grilovani pileći file, pomfrit, kombinacija zelenih salata sa žilijen povrćem i lepinja</p>
-            <p>Cena: 650 din</p>
-            <button>Dodaj u korpu</button>
-        </div>
-
-        <div class="col-12 col-md-6 food">
-            <h1 class="col-12">Mexican taco rolls</h1>
-            <div class="col-12 image"><img src="product-images/meksikan.jpg" width="100%" height="auto"></div>
-            <p><br>tortilje punjene autentičnim meksičkim nadevom od goveđeg mesa, servirane uz salatu, krompir spicy wedges, kiseli sos i guacamole dip</p>
-            <p>Cena: 650 din</p>
-            <button>Dodaj u korpu</button>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-md-6 food">
-            <h1 class="col-12">Pizza sa sirom</h1>
-            <div class="col-12 image"><img src="product-images/pizza.jpg" width="100%" height="auto"></div>
-            <p><br>kečap, sir</p>
-            <p>Cena: 400 din</p>
-            <button>Dodaj u korpu</button>
-        </div>
-
-        <div class="col-12 col-md-6 food">
-            <h1 class="col-12">Palačinka sa džemom</h1>
-            <div class="col-12 image"><img src="product-images/palacinka.jpg" width="100%" height="auto"></div>
-            <p><br></p>
-            <p>Cena: 100 din</p>
-            <button>Dodaj u korpu</button>
-        </div>
     </div>
 </div>
 
