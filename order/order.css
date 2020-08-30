@@ -89,10 +89,10 @@ div .food:hover{
 }
 
 button{
-    border: black solid 1px;
+    border: green solid 1px;
     border-radius: 6px;
     background-color: green;
-    color: #000000;
+    color: white;
     padding: 3px 6px 3px 6px;
     margin-bottom: 10px;
 }
@@ -129,14 +129,24 @@ footer .footerText{
     margin-bottom: 0;
 }
 
+.btn-p{
+    text-align: center;
+    padding-bottom: 15px;
+}
 
+a{
+    text-decoration: none;
+}
 
+div .cart svg path{
+    color: white;
+    background-color: white;
+}
 
-
-
-
-
-
+div .cart svg path:hover{
+    background-color: #c37011;
+    color: #c37011;
+}
 
 
 
@@ -160,8 +170,6 @@ footer .footerText{
     padding: 0 1.5em;
 }
 .section-header {
-    font-family: "Metal Mania";
-    font-weight: normal;
     color: #333;
     text-align: center;
     font-size: 2.5em;
@@ -253,10 +261,17 @@ footer .footerText{
 }
 
 .btn-purchase {
-    display: block;
     margin: 0;
     font-size: 1em;
+    background-color: green;
+    border: green solid 1px;
+    border-radius: 6px;
+    padding: 3px 6px 3px 6px;
+}
 
+.btn-purchase:hover{
+    background-color: #c37011;
+    border: #c37011 solid 1px;
 }
 
 
