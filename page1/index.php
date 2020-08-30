@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +20,10 @@
 <header class="container1">
     <div class="row">
         <div class="col-sm-4 col-12 logo">
-        <img src="star.png" style="margin-left: 400px">
+        <img src="star.png">
+        </div>
+        <div class="col-sm-8 col-12 logOut">
+                <p> <a href="../login/page_reg.php" >Registruj se</a> </p>
         </div>
     </div>
 

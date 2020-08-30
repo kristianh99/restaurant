@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+input[type=text], input[type=email], input[type=number], input[type=date], input[type=time] {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    padding: 7px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 4px;
+
+}
+
+textarea {
+    width: 100%;
+    background: #efefef;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 4px;
+    height: 280px;
+}
+
+
+
+

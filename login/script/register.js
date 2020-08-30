@@ -48,14 +48,14 @@ $('document').ready(function() {
      $("#btn-submit").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; Šalje se ...');
     },
     success :  function(response) {      
-        if(response==1){         
+        if(response===1){
 			 $("#error").fadeIn(1000, function(){
 			   $("#error").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; Email već postoji !</div>');
 			   $("#btn-submit").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Registruj se');
 			 });                    
-        } else if(response=="registered"){
+        } else if(response==="registered"){
 			 $("#btn-submit").html(' Sačekajte trenutak...');
-			 setTimeout('$(".form-signin").fadeOut(500, function(){ $(".register_container").load("../page_log.php"); }); ',3000);
+			 setTimeout('$(".form-signin").fadeOut(500, function(){ $(".register_container").load("../../page1/page_index.php"); }); ',3000);
         } else {
          	$("#error").fadeIn(1000, function(){
       			$("#error").html('<div class="alert alert-danger"><span class="glyphicon glyphicon-info-sign"></span> &nbsp; '+data+' !</div>');

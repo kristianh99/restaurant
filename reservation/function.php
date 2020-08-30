@@ -2,5 +2,5 @@
 session_start();
 unset($_SESSION['user_session']);
 if(session_destroy()) {
-    header("Location: page_log.php");
+    header("Location: ../login/page_log.php");
 }

@@ -19,7 +19,7 @@ include_once("db_connect.php");
         <div class="col-md-4 col-sm-4 col-xs-12"></div>
         <div class="col-md-4 col-sm-4 col-xs-12">
 
-            <form class="input-conatiner" method="post" id="login-form">
+            <form class="input-conatiner " method="post" id="login-form">
                 <div id="error">
                 </div>
 
